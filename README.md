@@ -1,5 +1,7 @@
 # MVCE: failure to report configuration cache error
 
+MVCE for https://github.com/gradle/gradle/issues/31203
+
 Running `./gradlew --no-configuration-cache checkForDuplicateClasses`
 succeeds.
 
