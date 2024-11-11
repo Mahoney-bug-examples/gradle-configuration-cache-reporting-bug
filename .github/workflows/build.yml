@@ -30,6 +30,9 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
         with:
           validate-wrappers: true
+          build-scan-publish: true
+          build-scan-terms-of-use-url: "https://gradle.com/terms-of-service"
+          build-scan-terms-of-use-agree: "yes"
 
       - name: Demonstrate no problem without configuration-cache
         run: >-
